@@ -1,0 +1,31 @@
+.header {
+  /* 박스 */
+  padding: 10px;
+  /* 정렬 및 간격 */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  /* 정렬 및 간격 */
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  /* 폰트 */
+  font-size: 2em;
+}
+
+.count {
+  /* 박스 */
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  /* 정렬 및 간격 */
+  text-align: center;
+  background-color: red;
+  color: white;
+  /* 폰트 */
+  font-size: 0.5em;
+  font-weight: bold;
+}

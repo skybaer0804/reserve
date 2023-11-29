@@ -7,8 +7,6 @@ import axios from "@/lib/axios";
 import Container from "@/components/Container";
 import Header from "@/components/Header";
 
-const inter = Inter({ subsets: ["latin"] });
-
 export default function Home() {
   const [reserveList, setReserveList] = useState([]);
 
@@ -29,7 +27,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>Reserve</title>
       </Head>
       <Container>
         <Header type={"list"} title={"Reservation"} />

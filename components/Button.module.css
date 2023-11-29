@@ -1,0 +1,23 @@
+.button {
+  /* 박스 */
+  min-height: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  /* x축, y축, 번짐도, 거리, 색 */
+  box-shadow: 1px 1px 4px -1px gray;
+  text-decoration: none;
+  /* 정렬 간격 */
+  display: flex;
+  align-items: center;
+  /* 폰트 */
+  color: red;
+}
+
+.button:hover {
+  background-color: whitesmoke;
+}
+
+.button:active {
+  box-shadow: 1px 1px 1px slategray;
+  top: 2px;
+}

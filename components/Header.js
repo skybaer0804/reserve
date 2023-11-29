@@ -1,17 +1,20 @@
-import ButtonLink from "./ButtonLInk";
+import Image from "next/image";
+import ButtonLink from "./ButtonLink";
 import styles from "./Header.module.css";
+import Button from "./Button";
 
 export default function Header({ type, title, count = 0 }) {
   return (
-    <div>
-      <ButtonLink className={styles.button} href="/">
-        +reserve
+    <div className={styles.header}>
+      <ButtonLink href="/">
+        <Image src="/images/add.svg" width={25} height={25} alt="add" />
+        New Reservation
       </ButtonLink>
-      <div>{title}</div>
-      {type === "list" && count && <p>{count}</p>}
-      <ButtonLink className={styles.button} href="/">
-        X
-      </ButtonLink>
+      <div className={styles.title}>
+        <div>{title}</div>
+        {type === "list" && <div className={styles.count}>{count}</div>}
+      </div>
+      <Image src="/images/close.svg" width={25} height={25} alt="close" />
     </div>
   );
 }

@@ -1,0 +1,27 @@
+.message {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    height: 100px;
+    padding: 0.5em;
+    border: 1px solid black;
+    font-size: 1.5em;
+}
+
+.message_text {
+    width: calc(100% - 100px);
+    height: 100%;
+    border: none;
+    resize: none;
+}
+
+.message_text:focus {
+    outline: none;
+}
+
+.message_send {
+    width: 100px;
+    height: 100%;
+    border-radius: 8px;
+    background-color: tomato;
+}

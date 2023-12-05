@@ -1,41 +1,42 @@
-body {
-  background-color: #000000;
-  font-size: 12px;
+.body {
   margin: 0;
 }
 
+.container {
+}
+
 /* 모바일 */
-#div_1 {
+.div_1 {
   width: 100%;
   height: 60px;
   background-color: #ff0000;
 }
 
-#div_2 {
+.div_2 {
   width: 100%;
   height: 350px;
   background-color: #ffa500;
 }
 
-#div_3 {
+.div_3 {
   width: 100%;
   height: 320px;
   background-color: #ffff00;
 }
 
-#div_4 {
+.div_4 {
   width: 100%;
   height: 385px;
   background-color: #008000;
 }
 
-#div_5 {
+.div_5 {
   width: 100%;
   height: 200px;
   background-color: #0000ff;
 }
 
-#div_6 {
+.div_6 {
   width: 100%;
   height: 200px;
   background-color: #4b0082;
@@ -43,28 +44,28 @@ body {
 
 /* 테블릿 */
 @media (min-width: 768px) {
-  div {
+  .container {
     float: left;
   }
 
-  #div_2 {
+  .div_2 {
     height: 562px;
     background-color: #ff0000;
   }
 
-  #div_3 {
+  .div_3 {
     height: 282px;
   }
 
-  #div_4 {
+  .div_4 {
     width: 50%;
     height: 360px;
   }
-  #div_5 {
+  .div_5 {
     width: 50%;
     height: 180px;
   }
-  #div_6 {
+  .div_6 {
     width: 50%;
     height: 180px;
   }
@@ -72,25 +73,25 @@ body {
 
 /* 데스크탑 */
 @media (min-width: 992px) {
-  #div_2 {
+  .div_2 {
     width: 50%;
     height: 700px;
   }
 
-  #div_3 {
+  .div_3 {
     width: 50%;
     height: 350px;
   }
 
-  #div_4 {
+  .div_4 {
     width: 25%;
     height: 350px;
   }
-  #div_5 {
+  .div_5 {
     width: 25%;
     height: 175px;
   }
-  #div_6 {
+  .div_6 {
     width: 25%;
     height: 175px;
   }
